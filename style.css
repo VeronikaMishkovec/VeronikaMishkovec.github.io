@@ -1,21 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
-
+html {
+    overflow-x: hidden;
+}
 body{
     margin: 0;
     padding: 0;
-    background: red;
     font-family: 'Hind', sans-serif;
     font-size: 1.2rem;
 
 }
 
 .header {
-    background-color: forestgreen;
+    display: flex;
+    flex-direction: column;
+    background: url('./img/bg.jpg') no-repeat 50% 50%;
+    height: 100vh;
+    width: 100vw;
 }
 .menu {
+    height: 5%;
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
     justify-content: space-around;
+}
+.name {
+    display: flex;
+    padding-top: 15%;
+    justify-content: center;
+    align-self: center;
+    height: 95%;
 }

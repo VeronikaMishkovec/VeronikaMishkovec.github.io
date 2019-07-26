@@ -63,6 +63,28 @@ body{
     border-bottom: 2px solid #2b2b1d;
 }
 
+.avatar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 200px;
+    height: 200px;
+    margin-left: 1em;
+}
+
+.main__about-me {
+    display: flex;
+    align-content: center;
+    margin: 1em; 
+}
+.about-me {
+    
+    width: 80%;
+    text-align: justify;
+}
+/* .first-paragraf {
+    display: flex;
+} */
 @keyframes name-show {
     from {opacity: 0;}
     to {opacity: 1;}

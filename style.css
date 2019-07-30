@@ -90,7 +90,7 @@ body{
     justify-content: center;
 }
 
-.html, .css3 {
+.html, .css3, .js, .sass {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,15 +98,16 @@ body{
     margin: 1rem;
 }
 
-.html5_logo, .css3_logo {
+.html5_logo, .css3_logo, .js_logo, .sass_logo {
     width: 150px;
 }
-.html5_caption, .css3_caption {
+.html5_caption, .css3_caption, .js_caption, .sass_caption {
     text-align: center;
     width: 150px;
     font-style: italic;
     font-size: 0.8rem;
     opacity: 0.8;
+    line-height: 2rem;
 }
 /* .first-paragraf {
     display: flex;

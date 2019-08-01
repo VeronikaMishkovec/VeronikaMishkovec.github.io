@@ -90,7 +90,7 @@ body{
     justify-content: center;
 }
 
-.html, .css3, .js, .sass {
+.html, .css3, .js, .sass, .jquery, .webpack {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,10 +98,10 @@ body{
     margin: 1rem;
 }
 
-.html5_logo, .css3_logo, .js_logo, .sass_logo {
+.html5_logo, .css3_logo, .js_logo, .sass_logo, .jquery_logo, .webpack_logo {
     width: 150px;
 }
-.html5_caption, .css3_caption, .js_caption, .sass_caption {
+.html5_caption, .css3_caption, .js_caption, .sass_caption, .jquery_caption, .webpack_caption {
     text-align: center;
     width: 150px;
     font-style: italic;

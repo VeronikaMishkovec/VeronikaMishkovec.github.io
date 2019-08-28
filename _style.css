@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Muli&display=swap');
-html {
+/* html {
     overflow-x: hidden;
-}
-body{
+} */
+/* body{
     margin: 0;
     padding: 0;
     font-family: 'Muli', sans-serif;
     font-size: 1.2rem;
     max-width: 1366px;
-}
+} */
 
-.header {
+/* .header {
     display: flex;
     flex-direction: column;
     background: url('./img/bg.jpg') no-repeat 50% 50%;
     height: 100vh;
     width: 100vw;
     color: #2b2b1d;
-}
-.menu {
+} */
+/* .menu {
     height: 5%;
     margin: 0;
     padding: 0;
@@ -27,8 +27,8 @@ body{
     list-style: none;
     justify-content: space-around;
     font-size: 1.5rem;
-}
-.name {
+} */
+/* .name {
     display: flex;
     flex-direction: column;
     padding-top: 9%;
@@ -41,8 +41,8 @@ body{
     opacity: 0;
     animation: name-show 1.5s ease-in-out 0.5s;
     animation-fill-mode: forwards;
-}
-.github {
+} */
+/* .github {
     display: flex;
     justify-content: center;
     margin-bottom: 32%;
@@ -50,40 +50,40 @@ body{
     animation: name-show 1s ease-in-out 1.5s;
     animation-fill-mode: forwards;
     opacity: 0;
-}
-.fa-github {
+} */
+/* .fa-github {
     font-size: 2rem;
-}
-.github a {
+} */
+/* .github a {
     text-decoration: none;
     color: #2b2b1d;
     font-weight: normal;
-}
-.github a:hover {
+} */
+/* .github a:hover {
     border-bottom: 2px solid #2b2b1d;
-}
+} */
 
-.avatar {
+/* .avatar {
     display: flex;
     align-items: center;
     height: 100%;
     width: 200px;
     height: 200px;
     margin-left: 1em;
-}
+} */
 
-.main__about-me {
+/* .main__about-me {
     display: flex;
     align-content: center;
     margin: 1em; 
-}
-.about-me {
+} */
+/* .about-me {
     
     width: 100%;
     text-align: justify;
-}
+} */
 
-.technologies {
+/* .technologies {
     display: flex;
     width:100%;
     flex-wrap: wrap;
@@ -96,23 +96,23 @@ body{
     justify-content: center;
     width: 20%;
     margin: 1rem;
-}
+} */
 
-.html5_logo, .css3_logo, .js_logo, .sass_logo, .jquery_logo, .webpack_logo {
+/* .html5_logo, .css3_logo, .js_logo, .sass_logo, .jquery_logo, .webpack_logo {
     width: 150px;
-}
-.html5_caption, .css3_caption, .js_caption, .sass_caption, .jquery_caption, .webpack_caption {
+} */
+/* .html5_caption, .css3_caption, .js_caption, .sass_caption, .jquery_caption, .webpack_caption {
     text-align: center;
     width: 150px;
     font-style: italic;
     font-size: 0.8rem;
     opacity: 0.8;
     line-height: 2rem;
-}
+} */
 /* .first-paragraf {
     display: flex;
 } */
-@keyframes name-show {
+/* @keyframes name-show {
     from {opacity: 0;}
     to {opacity: 1;}
-}
+} */

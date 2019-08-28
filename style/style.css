@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Muli&display=swap");
+html {
+  overflow-x: hidden;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2rem;
+  max-width: 1366px;
+}
+
+html body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("../img/bg.jpg") no-repeat 50% 50%;
+  height: 100vh;
+  width: 100vw;
+  color: #2b2b1d;
+}
+
+html body .header .menu {
+  height: 5%;
+  margin: 0;
+  padding: 0;
+  padding-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+html body .header .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 9%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 95%;
+  margin-bottom: 0;
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
+  opacity: 0;
+  -webkit-animation: name-show 1.5s ease-in-out 0.5s;
+          animation: name-show 1.5s ease-in-out 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+html body .header .github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 32%;
+  font-size: 1.5rem;
+  -webkit-animation: name-show 1s ease-in-out 1.5s;
+          animation: name-show 1s ease-in-out 1.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+html body .header .github .fa-github {
+  font-size: 2rem;
+}
+
+html body .header .github a {
+  text-decoration: none;
+  color: #2b2b1d;
+  font-weight: normal;
+}
+
+html body .header .github a:hover {
+  border-bottom: 2px solid #2b2b1d;
+}
+
+html body .main .main__about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 1em;
+}
+
+html body .main .main__about-me .about-me {
+  width: 100%;
+  text-align: justify;
+}
+
+html body .main .technologies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body .main .technologies .html, html body .main .technologies .css3, html body .main .technologies .js, html body .main .technologies .sass, html body .main .technologies .jquery, html body .main .technologies .webpack, html body .main .technologies .npm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20%;
+  margin: 1rem;
+}
+
+html body .main .technologies .html .html5_logo, html body .main .technologies .html .css3_logo, html body .main .technologies .html .js_logo, html body .main .technologies .html .sass_logo, html body .main .technologies .html .jquery_logo, html body .main .technologies .html .webpack_logo, html body .main .technologies .html .npm_logo, html body .main .technologies .css3 .html5_logo, html body .main .technologies .css3 .css3_logo, html body .main .technologies .css3 .js_logo, html body .main .technologies .css3 .sass_logo, html body .main .technologies .css3 .jquery_logo, html body .main .technologies .css3 .webpack_logo, html body .main .technologies .css3 .npm_logo, html body .main .technologies .js .html5_logo, html body .main .technologies .js .css3_logo, html body .main .technologies .js .js_logo, html body .main .technologies .js .sass_logo, html body .main .technologies .js .jquery_logo, html body .main .technologies .js .webpack_logo, html body .main .technologies .js .npm_logo, html body .main .technologies .sass .html5_logo, html body .main .technologies .sass .css3_logo, html body .main .technologies .sass .js_logo, html body .main .technologies .sass .sass_logo, html body .main .technologies .sass .jquery_logo, html body .main .technologies .sass .webpack_logo, html body .main .technologies .sass .npm_logo, html body .main .technologies .jquery .html5_logo, html body .main .technologies .jquery .css3_logo, html body .main .technologies .jquery .js_logo, html body .main .technologies .jquery .sass_logo, html body .main .technologies .jquery .jquery_logo, html body .main .technologies .jquery .webpack_logo, html body .main .technologies .jquery .npm_logo, html body .main .technologies .webpack .html5_logo, html body .main .technologies .webpack .css3_logo, html body .main .technologies .webpack .js_logo, html body .main .technologies .webpack .sass_logo, html body .main .technologies .webpack .jquery_logo, html body .main .technologies .webpack .webpack_logo, html body .main .technologies .webpack .npm_logo, html body .main .technologies .npm .html5_logo, html body .main .technologies .npm .css3_logo, html body .main .technologies .npm .js_logo, html body .main .technologies .npm .sass_logo, html body .main .technologies .npm .jquery_logo, html body .main .technologies .npm .webpack_logo, html body .main .technologies .npm .npm_logo {
+  width: 150px;
+}
+
+html body .main .technologies .html .html5_caption, html body .main .technologies .html .css3_caption, html body .main .technologies .html .js_caption, html body .main .technologies .html .sass_caption, html body .main .technologies .html .jquery_caption, html body .main .technologies .html .webpack_caption, html body .main .technologies .html .npm_caption, html body .main .technologies .css3 .html5_caption, html body .main .technologies .css3 .css3_caption, html body .main .technologies .css3 .js_caption, html body .main .technologies .css3 .sass_caption, html body .main .technologies .css3 .jquery_caption, html body .main .technologies .css3 .webpack_caption, html body .main .technologies .css3 .npm_caption, html body .main .technologies .js .html5_caption, html body .main .technologies .js .css3_caption, html body .main .technologies .js .js_caption, html body .main .technologies .js .sass_caption, html body .main .technologies .js .jquery_caption, html body .main .technologies .js .webpack_caption, html body .main .technologies .js .npm_caption, html body .main .technologies .sass .html5_caption, html body .main .technologies .sass .css3_caption, html body .main .technologies .sass .js_caption, html body .main .technologies .sass .sass_caption, html body .main .technologies .sass .jquery_caption, html body .main .technologies .sass .webpack_caption, html body .main .technologies .sass .npm_caption, html body .main .technologies .jquery .html5_caption, html body .main .technologies .jquery .css3_caption, html body .main .technologies .jquery .js_caption, html body .main .technologies .jquery .sass_caption, html body .main .technologies .jquery .jquery_caption, html body .main .technologies .jquery .webpack_caption, html body .main .technologies .jquery .npm_caption, html body .main .technologies .webpack .html5_caption, html body .main .technologies .webpack .css3_caption, html body .main .technologies .webpack .js_caption, html body .main .technologies .webpack .sass_caption, html body .main .technologies .webpack .jquery_caption, html body .main .technologies .webpack .webpack_caption, html body .main .technologies .webpack .npm_caption, html body .main .technologies .npm .html5_caption, html body .main .technologies .npm .css3_caption, html body .main .technologies .npm .js_caption, html body .main .technologies .npm .sass_caption, html body .main .technologies .npm .jquery_caption, html body .main .technologies .npm .webpack_caption, html body .main .technologies .npm .npm_caption {
+  text-align: center;
+  width: 150px;
+  font-style: italic;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  line-height: 2rem;
+}
+
+@-webkit-keyframes name-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes name-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */

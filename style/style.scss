@@ -75,16 +75,16 @@ html {
                 width:100%;
                 flex-wrap: wrap;
                 justify-content: center;
-                .html, .css3, .js, .sass, .jquery, .webpack, .npm {
+                .html, .css3, .js, .sass, .jquery, .webpack, .npm, .ps {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     width: 20%;
                     margin: 1rem;
-                    .html5_logo, .css3_logo, .js_logo, .sass_logo, .jquery_logo, .webpack_logo, .npm_logo {
+                    .html5_logo, .css3_logo, .js_logo, .sass_logo, .jquery_logo, .webpack_logo, .npm_logo, .ps_logo {
                         width: 150px;
                     }
-                    .html5_caption, .css3_caption, .js_caption, .sass_caption, .jquery_caption, .webpack_caption, .npm_caption {
+                    .html5_caption, .css3_caption, .js_caption, .sass_caption, .jquery_caption, .webpack_caption, .npm_caption, .ps_caption {
                         text-align: center;
                         width: 150px;
                         font-style: italic;

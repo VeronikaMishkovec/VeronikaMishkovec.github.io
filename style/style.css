@@ -39,6 +39,16 @@ html body .header .menu {
   font-size: 1.5rem;
 }
 
+html body .header .menu a {
+  text-decoration: none;
+  color: #2b2b1d;
+  font-weight: normal;
+}
+
+html body .header .menu a:hover {
+  border-bottom: 2px solid #2b2b1d;
+}
+
 html body .header .name {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,6 +156,16 @@ html body .main .technologies .html .html5_caption, html body .main .technologie
   font-size: 0.8rem;
   opacity: 0.8;
   line-height: 2rem;
+}
+
+html body .main .portfolio__header {
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @-webkit-keyframes name-show {

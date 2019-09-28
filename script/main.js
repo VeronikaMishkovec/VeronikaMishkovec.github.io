@@ -1,4 +1,19 @@
 $(document).ready(function() {
+    $('.wheels').mouseover(function() {
+        $(this).css({'border':'0.5em solid #a3bbc7'});
+        $('.wheels__buttons').css({'display':'flex'});
+    });
+    $('.wheels').mouseleave(function() {
+        $(this).css({'border':'0.5em solid #e6c69e'});
+        $('.wheels__buttons').css({'display':'none'});
+    });
+    $('.wheels__ghpages').click(function() {
+        window.location = 'https://veronikamishkovec.github.io/wheels/';
+    });
+    $('.wheels__github').click(function() {
+        window.location = 'https://github.com/VeronikaMishkovec/wheels';
+    });
+    /*------------------------------------------------------------------------- */
     $('.anix').mouseover(function() {
         $(this).css({'border':'0.5em solid #a3bbc7'});
         $('.anix__buttons').css({'display':'flex'});

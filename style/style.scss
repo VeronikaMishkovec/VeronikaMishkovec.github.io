@@ -170,9 +170,17 @@ html {
                 .auris {
                     @include card;
                     background-image: url('../img/auris.png');
-                    background-image: url('../img/auris.png');
+                    // background-image: url('../img/auris.png');
                     @include cardBack;
                     .auris__buttons {
+                        @include showButton;
+                    }
+                }
+                .wheels {
+                    @include card;
+                    background-image: url('../img/wheels.jpg');
+                    @include cardBack;
+                    .wheels__buttons {
                         @include showButton;
                     }
                 }
